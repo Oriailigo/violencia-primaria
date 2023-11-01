@@ -1,0 +1,43 @@
+/* Estilos para el componente desplegable */
+.content-faq-titem{
+    padding: 4rem;
+}
+.faq-item {
+    margin-bottom: 20px;
+    
+}
+
+.question {
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+}
+
+/* Estilos para el texto de la pregunta */
+.question h3 {
+    background-color: #4B0082; /* Fondo violeta oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+    margin: 0;
+}
+
+/* Estilos para el texto de la respuesta */
+.answer p {
+    margin: 0;
+}
+
+/* Estilos para mostrar la respuesta cuando se hace clic */
+.answer.active {
+    display: block;
+}
+
+.content-flex-video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:2rem;
+
+}
+

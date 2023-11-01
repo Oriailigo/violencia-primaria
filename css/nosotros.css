@@ -1,0 +1,35 @@
+/* Estilos para la sección "Acerca de nosotros" */
+#nosotros {
+    background-color: #4B0082; /* Fondo violeta oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+}
+
+
+.about-us-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.about-us-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+}
+.nosotros-centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}

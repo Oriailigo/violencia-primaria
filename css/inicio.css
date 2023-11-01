@@ -1,0 +1,90 @@
+/* Estilos para la sección de inicio */
+#inicio {
+    background-color: #4B0082; /* Fondo violeta oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+}
+
+/* Estilos para el contenido de la sección de inicio */
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.section-content-gap{
+    gap:2rem;
+}
+/* Estilos para el lado izquierdo del contenido */
+.section-left {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.section-content h3 {
+    font-size: 50px;
+    line-height: 1.1em;
+}
+
+/* Estilos para el botón "Leer más" */
+.read-more-button {
+    background-color: #4B0082; /* Fondo violeta oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Estilos para el lado derecho del contenido (imagen) */
+.section-right {
+    width: 50%;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el efecto parallax */
+.parallax {
+    background-image: url('img/portada.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Estilos para el contenido en la capa oscura */
+.parallax-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Capa oscura sobre la imagen de fondo */
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* Texto blanco */
+}
+
+h1 span {
+    display: block;
+    font-size: 180%;
+    line-height: 1.5;
+}
+.parallax-inicio{
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2135612947/display_1500/stock-photo-teenage-boys-and-girls-reading-books-and-doing-homework-in-library-2135612947.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54vh;
+    max-width: 100%;
+    
+}
