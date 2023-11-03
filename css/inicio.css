@@ -62,7 +62,7 @@
 
 /* Estilos para el efecto parallax */
 .parallax {
-    background-image: url('img/portada.png');
+    background-image: url("img/galeria1.jpg")!important;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
