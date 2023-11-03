@@ -5,6 +5,10 @@
     padding: 20px;
 }
 
+.nosotros-centrar h2{
+    font-size: 50px;
+    line-height: 1.1em;
+}
 
 .about-us-content {
     display: flex;

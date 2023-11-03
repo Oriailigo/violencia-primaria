@@ -40,4 +40,28 @@
     gap:2rem;
 
 }
+/* Desplegable */
 
+.drop {
+	margin: 50px;
+   div, span {
+		padding: 10px;
+		border: 1px solid #eee;
+		border-bottom: 0; 
+		background-color: #fff;
+		display: block;
+      p {
+        display: block;
+        color: #ed8080;
+        font-weight: bold;
+		cursor: pointer;
+      }
+   }
+   span{
+	   color: #777;
+   }
+}
+
+.buton-large{
+    width: 100%!important;
+}

@@ -1,0 +1,43 @@
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 8rem;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #4B0082; /* Fondo violeta oscuro */
+    color: #fff; /* Texto blanco */
+    initial-letter: 2rem;
+   
+  }
+  .question-center-vertical{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+    justify-content: center;
+  }
+
+  .identacion{
+    text-indent: 50px;
+  }
+  .mayuscula{
+    text-transform:uppercase;
+  }
+
+  .button-right{
+    margin-left: 51%;
+  }

@@ -2,14 +2,19 @@
 #inicio {
     background-color: #4B0082; /* Fondo violeta oscuro */
     color: #fff; /* Texto blanco */
-    padding: 20px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
 }
 
 /* Estilos para el contenido de la sección de inicio */
 .section-content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
 }
 .section-content-gap{
     gap:2rem;
@@ -25,6 +30,14 @@
     line-height: 1.1em;
 }
 
+.tamaño{
+    width: 50%;
+}
+.content-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
 /* Estilos para el botón "Leer más" */
 .read-more-button {
     background-color: #4B0082; /* Fondo violeta oscuro */
@@ -71,6 +84,13 @@
 h1 {
     text-align: center;
     color: #fff; /* Texto blanco */
+    
+
+    
+}
+.nosotros-centrar h1{
+    font-size: 50px;
+    line-height: 1.1em;
 }
 
 h1 span {
@@ -86,5 +106,5 @@ h1 span {
     background-size: cover;
     height: 54vh;
     max-width: 100%;
-    
+    margin-top: 4rem;
 }
