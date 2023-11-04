@@ -22,7 +22,7 @@ section {
 }
 
 .logo img {
-    max-width: 100px; /* Tamaño máximo del logo */
+    max-width: 216px; /* Tamaño máximo del logo */
     height: auto;
 }
 
