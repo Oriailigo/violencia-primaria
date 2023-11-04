@@ -1,6 +1,14 @@
 footer{
     background-color:#0B070D;
 }
+.logo-footer{
+    width: 300px;
+}
+.logo-p-footer{
+    margin-top: -1rem;
+    margin-left: 4rem;
+    font-size: 24px;
+}
 .footer-font {
     font: var(--font_4);
     color: rgb(var(--color_15));
