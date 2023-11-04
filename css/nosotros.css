@@ -31,6 +31,15 @@
 .about-us-image img {
     max-width: 100%;
     height: auto;
+    border-radius: 40px;
+    box-shadow: 0 0 23px rgba(0,0,0,0.5);
+}
+
+.about-us-image-escuela img{
+    max-width: 100%;
+    border-radius: 40px;
+    box-shadow: 0 0 23px rgba(0,0,0,0.5);
+    height: auto;
 }
 .nosotros-centrar{
     display: flex;
@@ -39,4 +48,9 @@
     padding-left: 4rem;
     padding-right: 4rem;
 
+}
+
+.achicar-img{
+    width: 400px;
+    height: auto;
 }

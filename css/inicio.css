@@ -118,17 +118,18 @@ h1 span {
 }
 .parallax-inicio{
     background-image: url('/img/inicio2.jpg');
-    background-attachment: fixed;
+    background-attachment: local;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 54vh;
     max-width: 100%;
     margin-top: 2rem;
+    border-radius: 40px;
 }
 .parallax-inicio1{
     background-image: url('/img/educando.png');
-    background-attachment: fixed;
+    background-attachment: local;
     background-position: right center;
     /* background-position-x: 90%; */
     background-repeat: no-repeat;
@@ -136,4 +137,5 @@ h1 span {
     height: 54vh;
     max-width: 100%;
     margin-top: 2rem;
+    border-radius: 40px;
 }
