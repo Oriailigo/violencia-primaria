@@ -65,3 +65,12 @@
   .folletos:last-child:nth-child(5) {
     offset-distance: 100%;
   }
+
+  
+
+  @media (max-width: 750px) {
+    .folleto-p{
+      display: none;
+    }
+    
+  }

@@ -39,6 +39,30 @@
     flex-direction: row;
     gap: 2rem;
 }
+@media (max-width: 750px) {
+    /* tamaño de letra */
+    .portada-title {
+        font-size: 45px!important;
+    }
+    .tamaño {
+        width: 100%;
+    }
+    .content-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    } 
+    .section-content{
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 0rem;
+    }
+    #inicio{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+}
 /* Estilos para el botón "Leer más" */
 .read-more-button {
     background-color: #4B0082; /* Fondo violeta oscuro */

@@ -67,3 +67,15 @@
     text-align: left;
     font-weight: 900;
 }
+
+@media (max-width: 750px) {
+    .content-flex-video {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .video-mobile{
+        justify-content: center;
+    }
+}

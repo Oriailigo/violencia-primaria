@@ -33,6 +33,7 @@
     height: auto;
     border-radius: 40px;
     box-shadow: 0 0 23px rgba(0,0,0,0.5);
+    display: none;
 }
 
 .about-us-image-escuela img{
@@ -53,4 +54,38 @@
 .achicar-img{
     width: 400px;
     height: auto;
+}
+
+@media (max-width: 750px) {
+    .nosotros-centrar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    
+    }
+    .about-us-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap:2rem;
+    }
+    .about-us-image img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 40px;
+        box-shadow: 0 0 23px rgba(0,0,0,0.5);
+    }
+    .tamaño-about-us-image{
+        width: 518px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+    }
 }
