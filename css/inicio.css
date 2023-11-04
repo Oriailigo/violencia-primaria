@@ -117,9 +117,20 @@ h1 span {
     line-height: 1.5;
 }
 .parallax-inicio{
-    background-image: url('https://www.shutterstock.com/shutterstock/photos/2135612947/display_1500/stock-photo-teenage-boys-and-girls-reading-books-and-doing-homework-in-library-2135612947.jpg');
+    background-image: url('/img/inicio2.jpg');
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54vh;
+    max-width: 100%;
+    margin-top: 2rem;
+}
+.parallax-inicio1{
+    background-image: url('/img/educando.png');
+    background-attachment: fixed;
+    background-position: right center;
+    /* background-position-x: 90%; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 54vh;
