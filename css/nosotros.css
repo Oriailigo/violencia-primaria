@@ -3,10 +3,11 @@
     background-color: #4B0082; /* Fondo violeta oscuro */
     color: #fff; /* Texto blanco */
     padding: 20px;
+    padding-bottom: 4rem;
 }
 
 .nosotros-centrar h2{
-    font-size: 50px;
+    font-size: 30px;
     line-height: 1.1em;
 }
 

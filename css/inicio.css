@@ -1,10 +1,11 @@
 /* Estilos para la sección de inicio */
 #inicio {
-    background-color: #4B0082; /* Fondo violeta oscuro */
+    background-color: #050715; /* Fondo violeta oscuro */
     color: #fff; /* Texto blanco */
     padding-left: 4rem;
     padding-right: 4rem;
-    padding-top: 4rem;
+    padding-bottom: 4rem;
+
 }
 
 /* Estilos para el contenido de la sección de inicio */
@@ -62,17 +63,37 @@
 
 /* Estilos para el efecto parallax */
 .parallax {
-    background-image: url("img/galeria1.jpg")!important;
+    background-image: url(https://brownonline.com.ar/wp-content/uploads/2020/08/leymicaela.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100vh
+}
+.portada-title{
+    font-size: 71px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    letter-spacing: 0em;
+    /* line-height: 1.1em;  */
+    font-weight: bolder;
+}
+
+.portada-title-option{
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    letter-spacing: 0em;
+    line-height: 1.1em; 
+    font-weight: 500;
+}
+.h1-left{
+    align-items: left;
 }
 
 /* Estilos para el contenido en la capa oscura */
 .parallax-content {
-    background-color: rgba(0, 0, 0, 0.6); /* Capa oscura sobre la imagen de fondo */
+    background-color: rgba(0, 0, 0, 0.6);
     height: 100%;
     display: flex;
     justify-content: flex-start;
@@ -82,11 +103,8 @@
 }
 
 h1 {
-    text-align: center;
     color: #fff; /* Texto blanco */
-    
 
-    
 }
 .nosotros-centrar h1{
     font-size: 50px;
@@ -106,5 +124,5 @@ h1 span {
     background-size: cover;
     height: 54vh;
     max-width: 100%;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }

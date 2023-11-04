@@ -1,4 +1,14 @@
 /* Estilos para la galería de imágenes */
+#videos{
+    background-color: #050715;
+}
+#galeria{
+    background-color: #050715;
+    padding-bottom: 4rem;
+}
+#preguntas{
+    background-color: #4B0082;
+}
 .image-gallery {
     display: flex;
     justify-content: space-between;

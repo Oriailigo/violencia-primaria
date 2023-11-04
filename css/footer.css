@@ -1,8 +1,12 @@
+footer{
+    background-color:#0B070D;
+}
 .footer-font {
     font: var(--font_4);
     color: rgb(var(--color_15));
     letter-spacing: 0em;
     padding: 2rem;
+    text-align: center;
 }
 
 .separador{
