@@ -169,7 +169,7 @@ h1 span {
     background-position: right center;
     /* background-position-x: 90%; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 54vh;
     max-width: 100%;
     margin-top: 2rem;
