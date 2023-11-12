@@ -28,3 +28,11 @@
   .button-right{
     margin-left: 51%;
   }
+
+  @media (max-width: 750px) {
+    .content {
+      padding-right: 0rem;
+      padding-left: 0rem;
+    }
+    
+  }

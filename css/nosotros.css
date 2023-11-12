@@ -57,13 +57,15 @@
 }
 
 @media (max-width: 750px) {
-    .nosotros-centrar{
+    .nosotros-centrar h2{
         display: flex;
         flex-direction: column;
         align-items: center;
+    
+    }
+    .nosotros-centrar {
         padding-left: 1rem;
         padding-right: 1rem;
-    
     }
     .about-us-content {
         display: flex;
@@ -75,18 +77,24 @@
         gap:2rem;
     }
     .about-us-image img {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         max-width: 100%;
         height: auto;
         border-radius: 40px;
         box-shadow: 0 0 23px rgba(0,0,0,0.5);
+        margin-left: 2rem;
     }
     
     .tamaño-about-us-image{
         width: 518px;
-        display: flex;
-        flex-direction: column;
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center!important;
         gap: 2rem;
         justify-content: center;
+        
     }
 }

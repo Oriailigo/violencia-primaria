@@ -66,3 +66,27 @@ div a:hover {
 div a.selected {
     color: #8A2BE2; /* Violeta claro para el elemento seleccionado */
 }
+
+@media (max-width: 750px) {
+    .footer-center{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-font{
+        display: none;
+
+    }
+    .separador {
+        display: none;
+    }
+    .region-nav-footer{
+        display: flex;
+        justify-content: center;
+        margin-right: 8rem;
+    }
+    .footer-h3 {
+        padding-top: 2rem;
+    }
+}
