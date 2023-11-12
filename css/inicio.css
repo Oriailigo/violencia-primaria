@@ -163,3 +163,15 @@ h1 span {
     margin-top: 2rem;
     border-radius: 40px;
 }
+.parallax-exposicion1{
+    background-image: url('/img/elina\ chauvet.png');
+    background-attachment: local;
+    background-position: right center;
+    /* background-position-x: 90%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54vh;
+    max-width: 100%;
+    margin-top: 2rem;
+    border-radius: 40px;
+}

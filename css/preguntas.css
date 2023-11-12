@@ -1,6 +1,12 @@
 /* Estilos para el componente desplegable */
-#preguntas {
+#exposicion {
     background-color: #4B0082; /* Fondo violeta oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    padding-bottom: 4rem;
+}
+#preguntas {
+    background-color: #240d30;
     color: #fff; /* Texto blanco */
     padding: 20px;
     padding-bottom: 4rem;
